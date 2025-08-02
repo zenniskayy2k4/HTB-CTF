@@ -19,4 +19,4 @@ def decrypt(m):
     return c
 
 enc_flag = "DJF_CTA_SWYH_NPDKK_MBZ_QPHTIGPMZY_KRZSQE?!_ZL_CN_PGLIMCU_YU_KJODME_RYGZXL"
-print(f"HTB{{{decrypt(enc_flag)}}}")
+print(decrypt(enc_flag))
